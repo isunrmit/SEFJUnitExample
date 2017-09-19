@@ -7,7 +7,7 @@ class Student{
 	int ID;
  
 	
-	public Student(int aID, String aFamilyName, String aGivenName) {
+	public Student(int aID, String aGivenName, String aFamilyName) {
 		this.GivenName = aGivenName;
 		this.FamilyName = aFamilyName;
 		this.ID = aID;		

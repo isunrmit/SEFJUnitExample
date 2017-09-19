@@ -6,6 +6,7 @@ import org.junit.Test;
 public class StudentTest {
 	Student jack;
 	Student jill;
+	Student jim;
 	
 	@Before
 	public void setUp() {
@@ -23,7 +24,7 @@ public class StudentTest {
 	
 	@Test
 	public void test3() {
-		assertNull(jill);
+		assertNull(jim);
 	}
 	
 	@Test
@@ -32,7 +33,7 @@ public class StudentTest {
 	}
 	@Test
 	public void test5() {
-		assertEquals("Grumpy", jack.getFamilyName());
+		assertEquals("Jack", jack.getFamilyName());
 	}
 	
 	@Test
