@@ -1,7 +1,5 @@
 import static org.junit.Assert.*;
-
 import java.util.ArrayList;
-
 import org.junit.Before;
 import org.junit.Test;
 
@@ -16,19 +14,15 @@ public class StudentTest {
 
 	@Test
 	public void test1() {
-		//System.out.println("fail");
 		fail();
 	}
 	@Test
-	public void test2() {
-		//System.out.println("fail");
-		
+	public void test2() {		
 		fail("Not Implemented Yet.");
 	}
 	
 	@Test
 	public void test3() {
-		 
 		assertNull(jill);
 	}
 	
@@ -38,10 +32,7 @@ public class StudentTest {
 	}
 	@Test
 	public void test5() {
-		// System.out.println(jack.getFamilyName());
-		
 		assertEquals("Grumpy", jack.getFamilyName());
- 
 	}
 	
 	@Test
